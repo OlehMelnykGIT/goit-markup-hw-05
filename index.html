@@ -430,7 +430,7 @@
           
           <button type="submit" class="subscribe-btn">Subscribe
       
-              <svg class="icon-sub" width="16" height="16" aria-hidden="true">
+              <svg class="icon-sub" width="24" height="24" aria-hidden="true">
                 <use href="./images/icons.svg#icon-send-sub"></use>
               </svg>
             
@@ -450,38 +450,38 @@
         Leave your contacts and we will call you back
       </p>
       <form class="modal-form">
-        <label class="form-label">Name
+        <label class="form-label" for="user-name">Name </label>
           <div class="input-wrapper">
-            <input type="text" name="user-name" class="form-input" required />
-            <svg class="input-icon" width="18" height="18" aria-hidden="true">
+            <input type="text" name="user-name" id="user-name" class="form-input" required />
+            <svg class="input-icon" width="18" height="24" aria-hidden="true">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </div>
-        </label>
-        <label class="form-label">Phone
+      
+        <label class="form-label" for="user-phone">Phone</label>
           <div class="input-wrapper">
-            <input type="tel" name="user-phone" class="form-input" required />
-            <svg class="input-icon" width="18" height="18" aria-hidden="true">
+            <input type="tel" name="user-phone" id="user-phone" class="form-input" required />
+            <svg class="input-icon" width="18" height="24" aria-hidden="true">
               <use href="./images/icons.svg#icon-phone-call"></use>
             </svg>
           </div>
-        </label>
-        <label class="form-label">Email
+        
+        <label class="form-label" for="user-email">Email</label>
           <div class="input-wrapper">
-            <input type="email" name="user-email" class="form-input" required />
-            <svg class="input-icon" width="18" height="18" aria-hidden="true">
+            <input type="email" name="user-email" id="user-email" class="form-input" required />
+            <svg class="input-icon" width="18" height="24" aria-hidden="true">
               <use href="./images/icons.svg#icon-mail-sent"></use>
             </svg>
           </div>
-        </label>
+        
         <label class="form-label">Comment
           <textarea name="user-comment" placeholder="Text input" class="form-textarea"></textarea>
         </label>
 
         <label for="policy" class="form-checkbox">
-          <input type="checkbox" id="policy" class="checkbox-input" required />
+          <input type="checkbox" name="policy" id="policy" class="checkbox-input" required />
           <span class="checkbox-custom">
-            <svg class="checkbox-icon" width="8" height="8" aria-hidden="true">
+            <svg class="checkbox-icon" width="10" height="8" aria-hidden="true">
               <use href="./images/icons.svg#icon-check"></use>
             </svg>
           </span>
