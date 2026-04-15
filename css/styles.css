@@ -710,7 +710,7 @@ box-shadow: 0px 2px 1px 0 rgba(46, 47, 66, 0.08),
     
     width: 16px;
     height: 16px;
-    pointer-events: none;
+   
     
 }
 
@@ -759,7 +759,6 @@ box-shadow: 0px 2px 1px 0 rgba(46, 47, 66, 0.08),
 }
 .modal-form > label{
     display: block;
-    margin-bottom: 4px;
 }
 
 .modal-close {
@@ -798,6 +797,10 @@ box-shadow: 0px 2px 1px 0 rgba(46, 47, 66, 0.08),
 .modal-close:hover svg,
 .modal-close:focus svg{
     fill: #fff;
+}
+
+.form-label{
+    margin-bottom: 4px;
 }
 
 .form-label textarea{

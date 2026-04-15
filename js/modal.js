@@ -2,6 +2,12 @@ const openBtn = document.querySelector('.open-modal');
 const modal = document.querySelector('.backdrop');
 const closeBtn = document.querySelector('.modal-close');
 
+// Accesiibility Вона невидима для очей АЛЕ 
+// вона все ще існує в DOM M скрінрідер її ЧИТАЄ
+
+modal.setAttribute('aria-hidden', 'false');
+modal.setAttribute('aria-hidden', 'true');
+
 // Відкрити
 openBtn.addEventListener('click', () => {
   modal.classList.add('is-open');
