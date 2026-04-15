@@ -590,6 +590,7 @@ box-shadow: 0px 2px 1px 0 rgba(46, 47, 66, 0.08),
 .form-checkbox{
     display: flex;
     align-items: center;
+    margin-top: 8px;
     font-size: 12px;
     color: #8e8f99;
 
@@ -706,9 +707,11 @@ box-shadow: 0px 2px 1px 0 rgba(46, 47, 66, 0.08),
 .checkbox-input{
     position: absolute;
     opacity: 0;
+    
     width: 16px;
     height: 16px;
     pointer-events: none;
+    
 }
 
 .checkbox-custom {
