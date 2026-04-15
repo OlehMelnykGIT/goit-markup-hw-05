@@ -648,6 +648,7 @@ box-shadow: 0px 2px 1px 0 rgba(46, 47, 66, 0.08),
     width: 100%;
     height: 120px;
     padding: 8px 16px;
+    margin-bottom: 16px;
 
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -705,7 +706,9 @@ box-shadow: 0px 2px 1px 0 rgba(46, 47, 66, 0.08),
 .checkbox-input{
     position: absolute;
     opacity: 0;
-    display: none;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
 }
 
 .checkbox-custom {
@@ -789,7 +792,13 @@ box-shadow: 0px 2px 1px 0 rgba(46, 47, 66, 0.08),
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover svg{
+.modal-close:hover svg,
+.modal-close:focus svg{
     fill: #fff;
+}
+
+.form-label textarea{
+    display: block;
+    margin-top: 4px;
 }
 
